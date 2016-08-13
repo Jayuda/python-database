@@ -5,7 +5,7 @@ This all python file to use in connections with many databases.
 ### Microsoft SQL Server 
 
 ```python
-from KoneksiDatabase import koneksi
+from msssql import koneksi
 
 konek = koneksi("yourserver", "yourdatabase", "yourUID", "yourPASS")
 conn = konek.Hubungan()
