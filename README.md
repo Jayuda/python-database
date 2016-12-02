@@ -1,6 +1,19 @@
 # python-database
 This all python file to use in connections with many databases.
+## INSTALL
 
+** Ubuntu **
+```
+$ sudo apt-get install unixodbc-dev
+$ pip install pyodbc
+```
+
+** Mac OS **
+```
+$ brew install unixodbc
+$ brew install freetds --with-unixodbc
+$ pip install pyodbc
+```
 ## USAGE
 ### Microsoft SQL Server 
 ```python
