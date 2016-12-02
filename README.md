@@ -8,12 +8,24 @@ $ sudo apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
 $ pip install pyodbc
 ```
 
+libtds location : 
+```
+/usr/local/freetds/lib/libtdsodbc.so
+```
+
 ** Mac OS **
 ```
 $ brew install unixodbc
 $ brew install freetds --with-unixodbc
 $ pip install pyodbc
 ```
+
+libtds location : 
+```
+/usr/local/Cellar/freetds/<VERSION>/lib/libtdsodbc.so
+```
+
+
 ## USAGE
 ### Microsoft SQL Server 
 ```python
