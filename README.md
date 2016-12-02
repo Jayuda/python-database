@@ -4,7 +4,7 @@ This all python file to use in connections with many databases.
 
 ** Ubuntu **
 ```
-$ sudo apt-get install unixodbc-dev
+$ sudo apt-get install unixodbc unixodbc-dev freetds-dev freetds-bin tdsodbc
 $ pip install pyodbc
 ```
 
