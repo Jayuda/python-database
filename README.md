@@ -12,6 +12,11 @@ libtds location :
 ```
 /usr/local/freetds/lib/libtdsodbc.so
 ```
+or 
+
+```
+/usr/lib/x86_64-linux-gnu/odbc/libtdsodbc.so
+```
 
 ** Mac OS **
 ```
